@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body {
+    background-color: #EF8105;
+    color: #1E2116;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 14pt;
+    background-image: url(rango.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#container {
+    width: 768px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+/*Float the aside so it floats next to main. Reduce width by 150 px, so they both line up with header*/
+aside {
+    width: 150px;
+    height: 1200px;
+    background-color: #565856;
+    float: left;
+    clear: none;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(sambuco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    width: 598px;
+    height: 2000px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*clear the float so the footer shows up in the right place again*/
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+	background-color:gray
+}
+
+h1 {
+    color: #CBB5A5;
+  font-family: politica,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: neonoir, "sans-serif;";
+}
+
+.floatLeft{
+	float: left;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    margin-bottom: 50px;
+    font-family: neonoir, "sans-serif;";
+    font-size: 20pt;
+}
+nav {
+    width: 768px;
+    min-width: 0px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 180px;
+    margin-right: 0px 60px 0px 0px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+}
+#container nav ul {
+    width: 900px;
+    margin: auto;
+}
+
+
+nav a:link {
+    color: #C3DAF8;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    color: #B30CD8;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FDFDFD;
+    text-decoration: none;
+	background-color:#C3DAF8;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    color: #000000;
+    text-decoration: none;
+}
+.submit_btn {
+    width: 170px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #C0D7EF;
+    color: #FFFFFF;
+    font-size: 16px;
+   
+}
+
+.submit_btn:hover{ -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;}
